@@ -28,7 +28,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable} ${playfair.variable} antialiased relative`}>
+      <body className={`${geistSans.variable} ${geistMono.variable} ${playfair.variable} antialiased relative text-shadow-xl shadow-black`}>
         {/* Background Image */}
         <div className="fixed inset-0 -z-10">
           <Image
